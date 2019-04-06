@@ -1,0 +1,48 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   FinalProject
+   Brennen Nalley
+
+   Filename: contact_forms.css
+
+*/
+
+/* Form Layout Styles */
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   margin: 5px;
+   width: 200px;
+}
+
+input, select, textarea {
+   display: block;
+   float: left;
+   margin: 5px 0px;
+   width: 200px;
+}
+
+textarea {
+   height: 100px;
+}
+
+form p {
+   clear: left;
+   text-align: left;
+   padding-top: 40px;
+   padding-left: 200px;
+}
+
+input[type='submit'] {
+   background-color: hsl(280, 100%, 50%);
+   color: #fffc99;
+   border-radius: 20px;
+   float: none;
+   clear:left;
+   display: inline;
+   font-size: 1.1em;
+   height: 30px;
+   width: 150px;
+}

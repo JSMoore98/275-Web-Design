@@ -1,0 +1,15 @@
+@ charset "UTF-8";
+
+/* 
+Headers
+Body
+Footer
+Background
+Nav
+ */
+ 
+html { background-color: ivory;}
+body { background-color: ivory;}
+nav { color:black;}
+h1 {background-color:rgb(102,178,255);}
+article{background-color:rgb(192,192,192);}

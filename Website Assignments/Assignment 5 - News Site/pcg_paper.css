@@ -1,0 +1,83 @@
+/@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Josiah Moore
+   Date:   9/27/18
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+
+/* General Structure Styles */
+html{background-color:grey;}
+
+body{
+	background-color:grey;
+	font-family:Verdana,Geneva,Arial,sans-serif;
+	margin-top:0px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	min-width:640px;
+	max-width:960;
+	position:relative;
+}
+
+aside {
+	width:160px;
+	height: 575px;
+	padding-right:10px;
+	float:left;
+	clear:left;
+	background-color:rgb(0, 0, 102);}
+	
+article {
+	display:block;
+	padding-left:50px;
+	width:95%;
+	background-color:white;
+	padding-top:1px;
+	padding-bottom:1px;}
+	
+p{display:block;}
+
+/* Navigation Sidebar Related Styles */	
+aside.container{
+	content:"";
+	display:table;
+	clear:both;}
+	
+li{
+	margin-bottom:4px;}
+	
+ul{color:white;}
+
+h2{color:white;
+	padding-left:25px;}
+
+a{
+	text-decoration:none;
+	color:white;}
+	
+nav a:active {
+	color:rgb(191, 191, 191);}
+
+nav a:hover {
+	color:rgb(191, 191, 191);}
+		
+/* Footer Style */
+footer {
+	float:right;
+	clear:right;
+	position:relative;
+	right:10px;
+	color:white;
+	text-align:right;
+	font-size:2vmin;}
+

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+Final Project
+   
+   Style Sheet for final project
+   Author: Brennen Nalley
+   
+   Filename: styles.css
+
+*/
+
+html{font-family: "Trebuchet MS", Helvetica, sans-serif;
+      padding-top:10px;
+      padding-bottom:10px;}
+/*HeaderStyles*/
+
+   h1{font-size: 3em;
+      font-weight: normal;
+      margin: 0px;
+      padding: 20px, 20px, 20px, 20px;
+	  }
+	hr {border-color: white;}
+/*BodyStyles*/
+
+body
+{
+	background-color: hsl(270, 100%, 95%);
+}
+ a:link, a:visited{
+      color: hsl(280, 100%, 50%);
+      text-decoration: underline;
+   }
+
+ a:hover, a:active{
+      color:hsl(280,50%, 70%);
+   }
+
+/* Navigation Styles */
+
+   nav{font-family: "Trebuchet MS", Helvetica, sans-serif;
+      padding-top:10px;
+      padding-bottom:10px;}
+
+   nav > ul > li > a:link, nav > ul > li > a:visited{
+    color: black;
+    text-decoration: none;
+    background-color: hsla(0,0%, 42%, 0.4);
+    padding-top:10px;
+    padding-bottom:10px;
+	border: 1px solid gray; 
+	text-shadow:none;
+}	
+
+   nav > ul > li > a:hover, nav > ul > li > a:active{
+      color:hsla(0,0%, 100%, 0.7);
+      background-color:hsl(0,0%, 42%, 0.7);
+   }

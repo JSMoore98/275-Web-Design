@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*  Josiah Moore
+	CSS Test Page
+*/
+
+html {
+ background-color: purple;
+}
+
+body {
+ color: rgb(91, 91, 91);
+ background-color: khaki;
+}
+
+nav {
+	color: red;
+background-color: green; }
+
+h1 {
+ color: white;
+ background-color: rgb(222, 128, 60);
+}
+
+h2 {
+ color: white;
+ background-color: rgb(235, 177, 131);
+}
+
+a {
+	color: yellow;
+}
+
